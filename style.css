@@ -137,7 +137,7 @@ nav .right .shoppingcar {
     height: 15px;
     margin-left: 18px;
     margin-top: 10px;
-    background: url(images/icons.png) -415px -90px;
+    background: url(photos/images/icons.png) -415px -90px;
 }
 nav .right a{
     font-family: 'icomoon';
@@ -379,7 +379,7 @@ article .right .rmid .one::after{
     left: 20px;
     width: 18px;
     height: 24px;
-    background: url(images/icons.png) no-repeat -20px -15px;
+    background: url(photos/images/icons.png) no-repeat -20px -15px;
 }
 article .right .rmid .two::after{
     position: absolute;
@@ -388,7 +388,7 @@ article .right .rmid .two::after{
     left: 80px;
     width: 29px;
     height: 29px;
-    background: url(images/icons.png) no-repeat -80px -15px;
+    background: url(photos/images/icons.png) no-repeat -80px -15px;
 }
 article .right .rmid .three::after{
     position: absolute;
@@ -397,7 +397,7 @@ article .right .rmid .three::after{
     left: 142px;
     width: 25px;
     height: 25px;
-    background: url(images/icons.png) no-repeat -142px -15px;
+    background: url(photos/images/icons.png) no-repeat -142px -15px;
 }
 article .right .rmid .four::after{
     position: absolute;
@@ -406,7 +406,7 @@ article .right .rmid .four::after{
     left: 204px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -206px -15px;
+    background: url(photos/images/icons.png) no-repeat -206px -15px;
 }
 article .right .rmid .five::after{
     position: absolute;
@@ -415,7 +415,7 @@ article .right .rmid .five::after{
     left: 18px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -17px -88px;
+    background: url(photos/images/icons.png) no-repeat -17px -88px;
 }
 article .right .rmid .six::after{
     position: absolute;
@@ -424,7 +424,7 @@ article .right .rmid .six::after{
     left: 82px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -78px -88px;
+    background: url(photos/images/icons.png) no-repeat -78px -88px;
 }
 article .right .rmid .seven::after{
     position: absolute;
@@ -433,7 +433,7 @@ article .right .rmid .seven::after{
     left: 142px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -142px -88px;
+    background: url(photos/images/icons.png) no-repeat -142px -88px;
 }
 article .right .rmid .eight::after{
     position: absolute;
@@ -442,7 +442,7 @@ article .right .rmid .eight::after{
     left: 205px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -206px -88px;
+    background: url(photos/images/icons.png) no-repeat -206px -88px;
 }
 article .right .rmid .nine::after{
     position: absolute;
@@ -451,7 +451,7 @@ article .right .rmid .nine::after{
     left: 18px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -17px -159px;
+    background: url(photos/images/icons.png) no-repeat -17px -159px;
 }
 article .right .rmid .ten::after{
     position: absolute;
@@ -460,7 +460,7 @@ article .right .rmid .ten::after{
     left: 80px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -78px -159px;
+    background: url(photos/images/icons.png) no-repeat -78px -159px;
 }
 article .right .rmid .eleven::after{
     position: absolute;
@@ -469,7 +469,7 @@ article .right .rmid .eleven::after{
     left: 142px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -142px -159px;
+    background: url(photos/images/icons.png) no-repeat -142px -159px;
 }
 article .right .rmid .twelve::after{
     position: absolute;
@@ -478,7 +478,7 @@ article .right .rmid .twelve::after{
     left: 205px;
     height: 25px;
     width: 25px;
-    background: url(images/icons.png) no-repeat -206px -159px;
+    background: url(photos/images/icons.png) no-repeat -206px -159px;
 }
 /* 右边立减图标 */
 article .right .rmid .two .juxing{
@@ -638,7 +638,7 @@ article .right .bottom img{
     right: 25px;
     width: 80px;
     height: 115px;
-    background: url(images/图层150.png) no-repeat;
+    background: url(photos/images/图层150.png) no-repeat;
 }
 .tuijian ul .two::after {
     content: '';
@@ -647,7 +647,7 @@ article .right .bottom img{
     right: 0;
     width: 113px;
     height: 103px;
-    background: url(images/图层149.png) no-repeat;
+    background: url(photos/images/图层149.png) no-repeat;
 }
 .tuijian ul .three::after {
     content: '';
@@ -656,7 +656,7 @@ article .right .bottom img{
     right: 15px;
     width: 107px;
     height: 111px;
-    background: url(images/图层148.png) no-repeat;
+    background: url(photos/images/图层148.png) no-repeat;
 }
 .tuijian ul .four::after {
     content: '';
@@ -665,7 +665,7 @@ article .right .bottom img{
     right: 40px;
     width: 133px;
     height: 122px;
-    background: url(images/图层151.png) no-repeat;
+    background: url(photos/images/图层151.png) no-repeat;
 }
 /* 底部帮助中心 */
 .footer {
@@ -721,19 +721,19 @@ article .right .bottom img{
     margin-right: 7px;
 }
 .footer .top .one span{
-    background-image: url(images/正.png);
+    background-image: url(photos/images/正.png);
 }
 .footer .top .two span{
-    background-image: url(images/急速.png);
+    background-image: url(photos/images/急速.png);
 }
 .footer .top .three span{
-    background-image: url(images/保.png);
+    background-image: url(photos/images/保.png);
 }
 .footer .top .four span{
-    background-image: url(images/特色.png);
+    background-image: url(photos/images/特色.png);
 }
 .footer .top .five span{
-    background-image: url(images/帮助.png);
+    background-image: url(photos/images/帮助.png);
 }
 /* 中间的指南 */
 .footer a{
@@ -797,7 +797,7 @@ article .right .bottom img{
     display: block;
     width: 95px;
     height: 95px;
-    background: url(images/二维码.png);
+    background: url(photos/images/二维码.png);
     margin-top: 5px;
     margin-bottom: 5px;
 }
