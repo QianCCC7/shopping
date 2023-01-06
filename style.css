@@ -5,11 +5,11 @@
 }
 @font-face {
     font-family: 'icomoon';
-    src:  url('photos/fonts/icomoon.eot?bj9glo');
-    src:  url('photos/fonts/icomoon.eot?bj9glo#iefix') format('embedded-opentype'),
-      url('photos/fonts/icomoon.ttf?bj9glo') format('truetype'),
-      url('photos/fonts/icomoon.woff?bj9glo') format('woff'),
-      url('photos/fonts/icomoon.svg?bj9glo#icomoon') format('svg');
+    src:  url('fonts/icomoon.eot?bj9glo');
+    src:  url('fonts/icomoon.eot?bj9glo#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?bj9glo') format('truetype'),
+      url('fonts/icomoon.woff?bj9glo') format('woff'),
+      url('fonts/icomoon.svg?bj9glo#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
