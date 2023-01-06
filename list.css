@@ -1,0 +1,108 @@
+/* 秒杀图片 */
+nav .miaosha1 {
+    position: absolute;
+    top: 43px;
+    left: 200px;
+    width: 76px;
+    height: 30px;
+}
+nav .miaosha1 span{
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background-color: #b1191a;
+    margin-right: 15px;
+}
+nav .miaosha1 img{
+    width: 55px;
+    height: 25px;
+}
+.article {
+    position: relative;
+    width: 1200px;
+    height: 45px;
+}
+.article .a_left li{
+    float: left;
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 700 ;
+}
+.article .a_left li a{
+    font-size: 16px;
+    color: black;
+}
+.article .a_left li a:hover{
+    color: #c40d0d;
+}
+.article .a_right li{
+    height: 45px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.article .a_right li a{
+    color: #666;
+    font-size: 12px;
+}
+.article .a_right .article .a_right_li{
+    position: relative;
+}
+.article .a_right .a_right_li::after{
+    font-family: 'icomoon';
+    content: '\e900';
+    top: 2px;
+    position: absolute;
+}
+.article .a_right li a:hover{
+    color: #c40d0d;
+    text-decoration: underline;
+}
+/* 中间中间的横线 */
+.article .mid span{
+    position: absolute;
+    top: 43px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #b1191a;
+}
+/* 女鞋 */
+.shoes{
+    position: relative;
+    left: 180px;
+    width: 1200px;
+    height: 120px;
+}
+.shoes img{
+    width: 100%;
+    height: 100%;
+}
+/* 手机界面 */
+.iphones {
+    position: relative;
+    left: 180px;
+    height: 1374px;
+    width: 1200px;
+}
+.iphones ul li {
+    float: left;
+    width: 285px;
+    height: 458px;
+    background: url(images/apple.jpg) no-repeat;
+    margin-right: 20px;
+    /* li本身就有边框 */
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.iphones ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.iphones ul li:hover{
+    border: 1px solid #b1191a;
+}
+

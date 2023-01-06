@@ -1,0 +1,176 @@
+/* 品优购logo */
+.r_header .left {
+    position: relative;
+    top: 0;
+    left: 180px;
+    width: 1200px;
+    height: 65px;
+    background: url(images/logo.png) no-repeat;
+    border-bottom: 2px solid #b1191a;
+}
+.r_header .left a{
+    display: block;
+    width: 210px;
+    height: 55px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+/* 注册新用户 */
+.r_article .r_register {
+    margin-left: 180px;
+    margin-top: 23px;
+    height: 40px;
+    width: 1200px;
+    background-color: #ececec;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.r_one {
+    float: left;
+    font-size: 18px;
+}
+.r_two {
+    float: right;
+    font-size: 14px;
+}
+.r_two  a{
+    color: #c81623;
+}
+/* 注册框 */
+.r_main span {
+    float: right;
+    display: block;
+    margin-right: 630px;
+    font-size: 14px;
+}
+.r_main span input{
+    width: 240px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #999;
+}
+.r_main .r_first{
+    margin-top: 55px;
+}
+.r_main .r_second,.r_third{
+    margin-top: 20px;
+}
+.r_main .r_fourth{
+    margin-top: 10px;
+    height: 13px;
+    line-height: 13px;
+}
+.r_main .r_fourth p{
+    float: left;
+    display: inline;
+    color: #b3b3b3;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.r_main .r_fourth ul{
+    display: inline;
+}
+.r_main .r_fourth ul li{
+    float: left;
+    text-align: center;
+    margin-right: 1px;
+    width: 34px;
+    font-size: 12px;
+    color: white;
+}
+.r_main .r_fourth .r_one{
+    background-color: #de1111;
+}
+.r_main .r_fourth .r_two{
+    background-color: #40b83f;
+}
+.r_main .r_fourth .r_three{
+    background-color: #f79100;
+}
+.r_main .r_fifth{
+    margin-top: 20px;
+}
+.r_main .r_sixth{
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
+.r_main .r_seventh input{
+    width: 16px;
+    height: 15px;
+    border: 1px solid #999;
+    vertical-align: middle;
+}
+.r_main .r_seventh a{
+    color: #1ba1e6;
+}
+/* 完成注册按钮 */
+.complete {
+    float: right;
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 663px;
+    color: #fff;
+    margin-top: 40px;
+}
+.complete  a{
+    color: #fff;
+}
+/* 下面的横线 */
+.hx {
+    position: relative;
+    margin-top: 450px;
+}
+.hengxian{
+    position: absolute;
+    left: 180px;
+    width: 1200px;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+/* 关于我们 */
+.footer2 {
+    position: relative;
+    height: 120px;
+}
+.footer2 a{
+    color: #5e5252;
+}
+.footer2 a:hover{
+    color: #0c0c0c;
+}
+.footer2 .bottom2{
+    position: absolute;
+    top: 25px;
+    left: 290px;
+}
+.footer2 .bottom2 li{
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+.footer2 .bottom2 li:nth-child(even){
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.footer2 .bottom2 li a:hover{
+    text-decoration: underline;
+}
+/* 地址 */
+.footer2 .address{
+    position: absolute;
+    top: 45px;
+    left: 370px;
+    width: 750px;
+    height: 70px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.footer2 .address p{
+    margin-top: 5px;
+}

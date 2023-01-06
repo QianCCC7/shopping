@@ -1,0 +1,840 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?bj9glo');
+    src:  url('fonts/icomoon.eot?bj9glo#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?bj9glo') format('truetype'),
+      url('fonts/icomoon.woff?bj9glo') format('woff'),
+      url('fonts/icomoon.svg?bj9glo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+li {
+    list-style: none;
+}
+.header {
+    width: 100%;
+    height: 31px;
+    background-color: rgb(241, 241, 241);
+    line-height: 31px;
+}
+.header span {
+    margin-left: 180px;
+}
+.header span, .l1 {
+    color: rgb(102, 102, 102);
+}
+a {
+    text-decoration: none;
+}
+.header .l1,.l22 {
+    margin-left: 8px;
+}
+.header .l22{
+    color: rgb(200, 22, 35);
+}
+.header ul {
+    float: right;
+    margin-right: 180px;
+}
+.header ul li{
+    font-family: 'icomoon';
+    float: left;
+}
+.header ul li a{
+    margin-left: 0;
+    color: rgb(102, 102, 102);
+}
+.header ul li a:hover {
+    color: rgb(200, 22, 35);
+}
+.header ul li:nth-child(even) {
+    color: rgb(102, 102, 102);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+nav {
+    position: relative;
+    width: 1200px;
+    height: 106px;
+    margin-left: 180px;
+}
+/* 左边的品优购logo */
+nav .left {
+    position: absolute;
+    top: 28px;
+    width: 210px;
+    height: 55px;
+    background: url(images/logo.png) no-repeat;
+}
+nav .left a{
+    display: block;
+    width: 210px;
+    height: 55px;
+    /* 隐藏h1内的文字 */
+    /* font-size: 0; */
+    text-indent: -9999px;
+    overflow: hidden;
+}
+/* 中间的搜索模块 */
+nav .mid {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+nav .mid input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    border: 0;
+    /* 去掉默认的蓝色边框 */
+    outline: none;
+    padding-left: 10px;
+}
+nav .mid button {
+    cursor: pointer;
+    float: left;
+    width: 80px;
+    height: 33px;
+    background-color: #b1191a;
+    margin-top: -1px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    color: white;
+}
+nav .mid ul li a{
+    float: left;
+    text-decoration: none;
+    color: #666;
+    margin: 10px 12px 0 12px;
+    font-size: 12px;
+}
+nav .mid ul li a:hover{
+    color: #b1191a;
+}
+/* 右边的购物车 */
+nav .right{
+    position: absolute;
+    top: 28px;
+    right: 60px;
+    width: 170px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+nav .right .shoppingcar {
+    float: left;
+    width: 20px;
+    height: 15px;
+    margin-left: 18px;
+    margin-top: 10px;
+    background: url(images/icons.png) -415px -90px;
+}
+nav .right a{
+    font-family: 'icomoon';
+    float: left;
+    color: #666;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+nav .right a:hover{
+    color: #b1191a;
+}
+/* nav .right .juxing{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-left: 125px;
+    margin-top: -27px;
+    background-color: #e60012;
+}
+nav .right .yuan{
+    float: left;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 15px;
+    margin-left: 125px;
+    margin-top: -35px;
+    background-color: #e60012;
+} */
+nav .right span{
+    position: absolute;
+    /* 不需要设置宽度，当里面元素过多让其自动撑开 */
+    left: 125px;
+    top: -8px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #e60012;
+    border-radius: 10px 10px 10px 0;
+}
+/* 内容部分 */
+article {
+    position: relative;
+    width: 1200px;
+    height: 512px;
+    margin-left: 180px;
+}
+/* 左边的物品分类 */
+article .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 510px;
+    background-color: antiquewhite;
+}
+article .left .top{
+    width: 210px;
+    height: 47px;
+    display: inline-block;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 47px;
+}
+article .left .bottom{
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 465px;
+    background-color: #c81623;
+}
+article .left .bottom ul li{
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+}
+article .left .bottom ul li:hover {
+    background-color: #f7f7f7;
+    color: #c81623;
+}
+article .left .bottom ul li:hover a{
+    color: #c81623;
+}
+article .left .bottom ul li a{
+    margin-left: 10px;
+    /* 因为浏览器给a标签设置了默认的颜色，所以不会继承父类的颜色 */
+    color: white;
+}
+article .left .bottom ul li::after {
+    content: '\e907';
+    font-family: 'icomoon';
+    float: right;
+    margin-right: 10px;
+}
+/* 中间上面的关键词 */
+article .mid .top {
+    position: absolute;
+    left: 220px;
+    width: 730px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+article .mid .top ul li{
+    float: left;
+    width: 91.25px;
+}
+article .mid .top ul li:hover{
+    background-color: #c81623;;
+}
+article .mid .top ul li:hover a{
+    color: white;
+}
+article .mid .top ul li a{
+    color: #333333;
+}
+/* 中间中间的横线 */
+article .mid span{
+    position: absolute;
+    top: 45px;
+    left: 210px;
+    display: block;
+    width: 990px;
+    height: 2px;
+    background-color: #b1191a;
+}
+/* 中间下面的大牌pk */
+article .mid .dapai{
+    position: absolute;
+    top: 55px;
+    left: 220px;
+    width: 720px;
+    height: 457px;
+}
+article .mid .dapai img{
+    width: 100%;
+    height: 100%;
+}
+/* 右边的快报 */
+article .right {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 250px;
+    height: 457px;
+    border: 2px solid #e4e4e4;
+}
+article .right .top {
+    float: left;
+    width: 250px;
+    height: 164px;
+}
+article .right .top .kuaibao{
+    float: left;
+    width: 245px;
+    height: 32px;
+    border-bottom: 2px #e8e8e7 dotted;
+    background-color: #ffffff;
+    padding-top: 6px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+article .right .top .kuaibao p{
+    display: inline-block;
+}
+article .right .top .kuaibao a{
+    float: right;
+    margin-right: 30px;
+    color: rgb(132, 117, 117);
+}
+article .right .top .kuaibao a:hover{
+    color: rgb(54, 50, 50);
+}
+article .right .top .kuaibao a::after{
+    position: absolute;
+    font-family: 'icomoon';
+    content: '\e907';
+    top: 10px;
+    right: 7px;
+}
+/* 右边的特惠和公告 */
+article .right .top .mid-top{
+    padding-left: 15px;
+    font-size: 13px;
+    color: #666;
+}
+article .right .top .mid-top span:nth-of-type(odd){
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 9px;
+}
+article .right .top .mid-top span a{
+    color: #666;
+}
+article .right .top .mid-top span a:hover{
+    text-decoration: underline;
+    color: rgb(54, 50, 50);
+}
+/* 右边的图标 */
+article .right .rmid{
+    position: absolute;
+    top: 170px;
+    width: 248px;
+    height: 210px;
+}
+article .right .rmid ul li{
+    float: left;
+    width: 64px;
+    height: 70px;
+    border: 2px solid #e8e8e7;
+    margin-left: -2px;
+    margin-top: -2px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+article .right .rmid ul li a{
+    display: inline-block;
+    margin-top: 40px;
+    color: #666;
+}
+article .right .rmid ul li a:hover{
+    color: #e60012;
+}
+article .right .rmid .one::after{
+    position: absolute;
+    content: '';
+    top: 12px;
+    left: 20px;
+    width: 18px;
+    height: 24px;
+    background: url(images/icons.png) no-repeat -20px -15px;
+}
+article .right .rmid .two::after{
+    position: absolute;
+    content: '';
+    top: 12px;
+    left: 80px;
+    width: 29px;
+    height: 29px;
+    background: url(images/icons.png) no-repeat -80px -15px;
+}
+article .right .rmid .three::after{
+    position: absolute;
+    content: '';
+    top: 12px;
+    left: 142px;
+    width: 25px;
+    height: 25px;
+    background: url(images/icons.png) no-repeat -142px -15px;
+}
+article .right .rmid .four::after{
+    position: absolute;
+    content: '';
+    top: 12px;
+    left: 204px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -206px -15px;
+}
+article .right .rmid .five::after{
+    position: absolute;
+    content: '';
+    top: 80px;
+    left: 18px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -17px -88px;
+}
+article .right .rmid .six::after{
+    position: absolute;
+    content: '';
+    top: 80px;
+    left: 82px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -78px -88px;
+}
+article .right .rmid .seven::after{
+    position: absolute;
+    content: '';
+    top: 80px;
+    left: 142px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -142px -88px;
+}
+article .right .rmid .eight::after{
+    position: absolute;
+    content: '';
+    top: 80px;
+    left: 205px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -206px -88px;
+}
+article .right .rmid .nine::after{
+    position: absolute;
+    content: '';
+    top: 150px;
+    left: 18px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -17px -159px;
+}
+article .right .rmid .ten::after{
+    position: absolute;
+    content: '';
+    top: 150px;
+    left: 80px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -78px -159px;
+}
+article .right .rmid .eleven::after{
+    position: absolute;
+    content: '';
+    top: 154px;
+    left: 142px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -142px -159px;
+}
+article .right .rmid .twelve::after{
+    position: absolute;
+    content: '';
+    top: 147px;
+    left: 205px;
+    height: 25px;
+    width: 25px;
+    background: url(images/icons.png) no-repeat -206px -159px;
+}
+/* 右边立减图标 */
+article .right .rmid .two .juxing{
+    position: absolute;
+    top: 0;
+    left: 110px;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+    line-height: 13px;
+    color: white;
+    background-color: #589d5a;
+    /* 提升优先级 */
+    z-index: 1;
+}
+article .right .rmid .two .l23{
+    position: absolute;
+    top: 6px;
+    left: 110px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #589d5a;
+}
+article .right .rmid .two .r23{
+    position: absolute;
+    top: 6px;
+    left: 112px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-right: 6px solid #589d5a;
+}
+/* 右下的潮男 */
+article .right .bottom{
+    position: absolute;
+    bottom: 0;
+    width: 250px;
+    height: 71px;
+}
+article .right .bottom img{
+    width: 100%;
+    height: 100%;
+}
+/* 今日推荐 */
+.tuijian {
+    position: relative;
+    width: 1200px;
+    height: 160px;
+    background-color: #ebebeb;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+/* 左边的今日推荐 */
+.tuijian .jinri{
+    position: absolute;
+    width: 210px;
+    height: 100%;
+    background-color: #5c5251;
+    color: #fff;
+    text-align: center;
+}
+.tuijian .jinri p{
+    font-size: 18px;
+    margin-top: 100px;
+}
+.tuijian .jinri::before{
+    position: absolute;
+    content: '\e901';
+    font-family: 'icomoon';
+    top: 30px;
+    left: 78px;
+    font-size: 60px;
+}
+/* 右边的优质货物 */
+.tuijian ul{
+    position: absolute;
+    left: 210px;
+    margin-left: 10px;
+}
+.tuijian ul li:nth-child(odd){
+    float: left;
+    /* width: 236px; */
+    width: 210px;
+    height: 160px;
+    padding-top: 20px;
+}
+.tuijian ul li:nth-child(even){
+    float: left;
+    height: 145px;
+    width: 2px;
+    background-color: #a4a2a2;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.tuijian ul li h1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.tuijian ul li:nth-child(odd) p:first-of-type{
+    margin-top: 6px;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+}
+.tuijian ul li:nth-child(odd) p:last-of-type{
+    color: #666666;
+    font-size: 14px;
+}
+.tuijian ul .one{
+    position: relative;
+}
+.tuijian ul .two{
+    position: relative;
+}
+.tuijian ul .three{
+    position: relative;
+}
+.tuijian ul .four{
+    position: relative;
+}
+.tuijian ul .one p:first-of-type{
+    background-color: #00a0e8;
+}
+.tuijian ul .two p:first-of-type{
+    background-color: #5fb200;
+}
+.tuijian ul .three p:first-of-type{
+    background-color: #e2162f;
+}
+.tuijian ul .four p:first-of-type{
+    background-color: #0085fb;
+}
+.tuijian ul li span{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+.tuijian ul .two span{
+    background-color: #5fb200;
+}
+.tuijian ul .three span{
+    background-color: #e2162f;
+}
+.tuijian ul .four span{
+    background-color: #0085fb;
+}
+.tuijian ul .one::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    width: 80px;
+    height: 115px;
+    background: url(images/图层150.png) no-repeat;
+}
+.tuijian ul .two::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 113px;
+    height: 103px;
+    background: url(images/图层149.png) no-repeat;
+}
+.tuijian ul .three::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 107px;
+    height: 111px;
+    background: url(images/图层148.png) no-repeat;
+}
+.tuijian ul .four::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: 40px;
+    width: 133px;
+    height: 122px;
+    background: url(images/图层151.png) no-repeat;
+}
+/* 底部帮助中心 */
+.footer {
+    position: relative;
+    width: 100%;
+    height: 415px;
+    background-color: #f5f5f5;
+}
+/* 横线两条 */
+.footer .shang{
+    position: absolute;
+    bottom: 308px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.footer .xia{
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+/* 上面的正品保障 */
+.footer .top{
+    margin-left: 180px;
+    width: 1200px;
+    height: 110px;
+}
+.footer .top li{
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 170px;
+    height: 110px;
+}
+.footer .top li h1{
+    font-size: 14px;
+    margin-top: 35px;
+}
+.footer .top li p{
+    font-size: 12px;
+    margin-top: 6px;
+    color: #666666;
+}
+.footer .top span{
+    float: left;
+    width: 49px;
+    height: 49px;
+    margin-top: 30px;
+    margin-right: 7px;
+}
+.footer .top .one span{
+    background-image: url(images/正.png);
+}
+.footer .top .two span{
+    background-image: url(images/急速.png);
+}
+.footer .top .three span{
+    background-image: url(images/保.png);
+}
+.footer .top .four span{
+    background-image: url(images/特色.png);
+}
+.footer .top .five span{
+    background-image: url(images/帮助.png);
+}
+/* 中间的指南 */
+.footer a{
+    color: #5e5252;
+}
+.footer a:hover{
+    color: #0c0c0c;
+}
+.footer .l1,.l2,.l3,.l4,.l5,.l6{
+    position: absolute;
+    top: 110px;
+    width: 200px;
+    height: 185px;
+    font-size: 13px;
+    padding-left: 50px;
+}
+.footer .l1 ul{
+    margin-top: 20px;
+}
+.footer .l2 ul{
+    margin-top: 20px;
+}
+.footer .l3 ul{
+    margin-top: 20px;
+}
+.footer .l4 ul{
+    margin-top: 20px;
+}
+.footer .l5 ul{
+    margin-top: 20px;
+}
+.footer .l6 ul{
+    margin-top: 20px;
+}
+.footer ul li{
+    margin-bottom: 3px;
+}
+.footer .first{
+    font-size: 16px;
+}
+.footer .l1{
+    left: 180px;
+}
+.footer .l2{
+    left: 372px;
+}
+.footer .l3{
+    left: 580px;
+}
+.footer .l4{
+    left: 780px;
+}
+.footer .l5{
+    left: 980px;
+}
+.footer .l6{
+    left: 1180px;
+}
+.footer .l6 p::before{
+    content: '';
+    display: block;
+    width: 95px;
+    height: 95px;
+    background: url(images/二维码.png);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer .l6 p{
+    display: inline-block;
+    text-align: center;
+    margin-left: -5px;
+}
+/* 关于我们 */
+.footer .bottom2{
+    position: absolute;
+    top: 315px;
+    left: 290px;
+}
+.footer .bottom2 li{
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+.footer .bottom2 li:nth-child(even){
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.footer .bottom2 li a:hover{
+    text-decoration: underline;
+}
+/* 地址 */
+.address{
+    position: absolute;
+    top: 345px;
+    left: 370px;
+    width: 750px;
+    height: 70px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.address p{
+    margin-top: 5px;
+}
